@@ -42,7 +42,7 @@ void setup () {
   q=floor(random(50, 440));
   l=580;
   p=240;
-  d=floor(random(80, 420));
+  d=240;
  
 
 
@@ -93,7 +93,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   image(Img3, m, q);
   k++;
   if (m>960){k=-2300;
-  d=floor(random(80, 420));
+  d=240;
   q=d;}  //enemy1
 
 }
