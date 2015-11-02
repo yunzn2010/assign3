@@ -113,7 +113,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   g = b * spacingXX+s;
   u += spacingYY;
   image(Img3, g, u+200);
-  s+=0.52;
+  s+=0.5;
   if (g>960){s=-2450;
   }  //enemy3
   }
@@ -122,7 +122,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   o = a * spacingXX+s;
   v -= spacingYY;
   image(Img3, o, v+320);
-  s+=0.52;
+  s+=0.5;
   if (o>960){s=-2450;
   }  //enemy3
   }
@@ -131,7 +131,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   mo = c * spacingXX+s;
   j += spacingYY;
   image(Img3, mo+125, j+80);
-  s+=0.52;
+  s+=0.5;
   if (mo>960){s=-2450;
   }  //enemy3
   }
@@ -140,7 +140,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   f = d * spacingXX+s;
   h -= spacingYY;
   image(Img3, f+120, h+440);
-  s+=0.52;
+  s+=0.5;
   if (f>960){s=-2450;
   }  //enemy3
   }
