@@ -35,7 +35,7 @@ void setup () {
   r=640;
   k=-375;
   w=-1500;
-  s=-6000;
+  s=-2625;
 
   x=40;
   y=floor(random(50, 540));
@@ -113,7 +113,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   g = b * spacingXX+s;
   u += spacingYY;
   image(Img3, g, u+200);
-  s++;
+  s+=0.25;
   if (g>960){s=-6000;
   }  //enemy3
   }
@@ -122,7 +122,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   o = a * spacingXX+s;
   v -= spacingYY;
   image(Img3, o, v+320);
-  s++;
+  s+=0.25;
   if (o>960){s=-6000;
   }  //enemy3
   }
@@ -131,7 +131,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   mo = c * spacingXX+s;
   j += spacingYY;
   image(Img3, mo+125, j+80);
-  s++;
+  s+=0.25;
   if (mo>960){s=-6000;
   }  //enemy3
   }
@@ -140,7 +140,7 @@ float m=0, q=0, t=0, e=0, g=0, u=0, o=0, v=0, mo=0, j=0, f=0, h=0;
   f = d * spacingXX+s;
   h -= spacingYY;
   image(Img3, f+120, h+440);
-  s++;
+  s+=0.25;
   if (f>960){s=-6000;
   }  //enemy3
   }
