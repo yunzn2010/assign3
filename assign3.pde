@@ -158,7 +158,7 @@ for(int i=0;i>=-2;i--){
   } 
   if(l>=1000){
     l=0;
-    q=random(160,300);
+    q=random(200,300);
     gameState=fleeA;
   }
 
