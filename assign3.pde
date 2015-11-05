@@ -23,7 +23,7 @@ float a;
 int z;
 int e;
 int f;
-float g=(random(390));
+float g=(random(350));
 float b=floor(random(640));
 float c=floor(random(480));
 float blood=(random(225));
@@ -121,7 +121,7 @@ for(int i=0;i>=-4;i--){
 }
 if(k>=1000){
   k=0;
-  g=random(390);
+  g=random(350);
   gameState=fleeB;
 }
 break;
