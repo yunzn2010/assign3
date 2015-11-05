@@ -32,7 +32,7 @@ boolean downPressed=false;
 boolean leftPressed=false;
 boolean rightPressed=false;
 float u=random(155);
-float q=random(110,370);
+float q=random(195,285);
 int p;
 int r;
 int k;
@@ -158,7 +158,7 @@ for(int i=0;i>=-2;i--){
   } 
   if(l>=1000){
     l=0;
-    q=random(200,300);
+    q=random(195,285);
     gameState=fleeA;
   }
 
